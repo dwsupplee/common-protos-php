@@ -7,6 +7,7 @@ namespace Google\Rpc;
 use Google\Protobuf\Internal\GPBType;
 use Google\Protobuf\Internal\RepeatedField;
 use Google\Protobuf\Internal\GPBUtil;
+use Google\Protobuf\Internal\GPBWrapperUtils;
 
 /**
  * Contains metadata about the request that clients can attach when filing a bug

@@ -7,6 +7,7 @@ namespace Google\Api;
 use Google\Protobuf\Internal\GPBType;
 use Google\Protobuf\Internal\RepeatedField;
 use Google\Protobuf\Internal\GPBUtil;
+use Google\Protobuf\Internal\GPBWrapperUtils;
 
 /**
  * `Service` is the root object of Google service configuration schema. It
@@ -312,6 +313,23 @@ class Service extends \Google\Protobuf\Internal\Message
     }
 
     /**
+     * Returns the unboxed value from <code>getConfigVersion()</code>
+
+     * The semantic version of the service configuration. The config version
+     * affects the interpretation of the service configuration. For example,
+     * certain features are enabled by default for certain config versions.
+     * The latest config version is `3`.
+     *
+     * Generated from protobuf field <code>.google.protobuf.UInt32Value config_version = 20;</code>
+     * @return int|null
+     */
+    public function getConfigVersionValue()
+    {
+        $wrapper = $this->getConfigVersion();
+        return is_null($wrapper) ? null : $wrapper->getValue();
+    }
+
+    /**
      * The semantic version of the service configuration. The config version
      * affects the interpretation of the service configuration. For example,
      * certain features are enabled by default for certain config versions.
@@ -327,6 +345,24 @@ class Service extends \Google\Protobuf\Internal\Message
         $this->config_version = $var;
 
         return $this;
+    }
+
+    /**
+     * Sets the field by wrapping a primitive type in a Google\Protobuf\UInt32Value object.
+
+     * The semantic version of the service configuration. The config version
+     * affects the interpretation of the service configuration. For example,
+     * certain features are enabled by default for certain config versions.
+     * The latest config version is `3`.
+     *
+     * Generated from protobuf field <code>.google.protobuf.UInt32Value config_version = 20;</code>
+     * @param int|null $var
+     * @return $this
+     */
+    public function setConfigVersionValue($var)
+    {
+        $wrappedVar = is_null($var) ? null : new \Google\Protobuf\UInt32Value(['value' => $var]);
+        return $this->setConfigVersion($wrappedVar);
     }
 
     /**

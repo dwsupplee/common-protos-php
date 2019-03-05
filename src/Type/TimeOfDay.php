@@ -7,6 +7,7 @@ namespace Google\Type;
 use Google\Protobuf\Internal\GPBType;
 use Google\Protobuf\Internal\RepeatedField;
 use Google\Protobuf\Internal\GPBUtil;
+use Google\Protobuf\Internal\GPBWrapperUtils;
 
 /**
  * Represents a time of day. The date and time zone are either not significant

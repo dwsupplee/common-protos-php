@@ -7,6 +7,7 @@ namespace Google\Api;
 use Google\Protobuf\Internal\GPBType;
 use Google\Protobuf\Internal\RepeatedField;
 use Google\Protobuf\Internal\GPBUtil;
+use Google\Protobuf\Internal\GPBWrapperUtils;
 
 /**
  * A custom pattern is used for defining custom HTTP verb.

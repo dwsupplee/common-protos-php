@@ -7,6 +7,7 @@ namespace Google\Cloud\Iam\V1;
 use Google\Protobuf\Internal\GPBType;
 use Google\Protobuf\Internal\RepeatedField;
 use Google\Protobuf\Internal\GPBUtil;
+use Google\Protobuf\Internal\GPBWrapperUtils;
 
 /**
  * Request message for `GetIamPolicy` method.

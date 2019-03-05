@@ -34,7 +34,7 @@ class Policy
             "67656e70726f746f2f676f6f676c65617069732f69616d2f76313b69616d" .
             "f80101aa0213476f6f676c652e436c6f75642e49616d2e5631ca0213476f" .
             "6f676c655c436c6f75645c49616d5c5631620670726f746f33"
-        ));
+        ), true);
 
         static::$is_initialized = true;
     }

@@ -7,6 +7,7 @@ namespace Google\Api;
 use Google\Protobuf\Internal\GPBType;
 use Google\Protobuf\Internal\RepeatedField;
 use Google\Protobuf\Internal\GPBUtil;
+use Google\Protobuf\Internal\GPBWrapperUtils;
 
 /**
  * Define a parameter's name and location. The parameter may be passed as either

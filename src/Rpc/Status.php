@@ -7,6 +7,7 @@ namespace Google\Rpc;
 use Google\Protobuf\Internal\GPBType;
 use Google\Protobuf\Internal\RepeatedField;
 use Google\Protobuf\Internal\GPBUtil;
+use Google\Protobuf\Internal\GPBWrapperUtils;
 
 /**
  * The `Status` type defines a logical error model that is suitable for different

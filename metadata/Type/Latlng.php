@@ -22,7 +22,7 @@ class Latlng
             "6f50015a38676f6f676c652e676f6c616e672e6f72672f67656e70726f74" .
             "6f2f676f6f676c65617069732f747970652f6c61746c6e673b6c61746c6e" .
             "67a20203475450620670726f746f33"
-        ));
+        ), true);
 
         static::$is_initialized = true;
     }

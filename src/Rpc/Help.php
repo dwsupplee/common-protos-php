@@ -7,6 +7,7 @@ namespace Google\Rpc;
 use Google\Protobuf\Internal\GPBType;
 use Google\Protobuf\Internal\RepeatedField;
 use Google\Protobuf\Internal\GPBUtil;
+use Google\Protobuf\Internal\GPBWrapperUtils;
 
 /**
  * Provides links to documentation or for performing an out of band action.
